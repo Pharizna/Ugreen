@@ -1,6 +1,6 @@
 # Carpeta `docs`
 
-Esta carpeta contiene la documentación técnica asociada al proyecto UGREEN DXP2800.  
+Esta carpeta contiene la documentación técnica asociada al proyecto UGREEN DXP2800 GT.  
 Incluye información detallada sobre la configuración de servicios, bases de datos, metodología de análisis y cualquier material complementario utilizado durante las pruebas.
 
 ## Contenido
