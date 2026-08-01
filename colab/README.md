@@ -1,22 +1,22 @@
-# Carpeta `colab` – Análisis CPU ↔ Temperatura del NAS UGREEN DXP2800
+# Carpeta `colab` – Análisis CPU ↔ Temperatura del NAS UGREEN DXP2800 GT
 
-Esta carpeta contiene todos los recursos necesarios para reproducir el análisis térmico realizado sobre el NAS UGREEN DXP2800, incluyendo el notebook, los datos originales y las figuras generadas.
+Esta carpeta contiene todos los recursos necesarios para reproducir el análisis térmico realizado sobre el NAS **UGREEN DXP2800 GT**, incluyendo el notebook, los datos originales y las figuras generadas.
 
 ## Contenido
 
 - **ugreen.ipynb**  
   Notebook de análisis CPU ↔ temperatura.  
-  Incluye carga de datos, gráficas, correlaciones y evaluación del comportamiento térmico del NAS bajo estrés.
+  Incluye carga de datos, gráficas, correlaciones y evaluación del comportamiento térmico del modelo GT bajo diferentes condiciones.
 
 - **history.csv**  
   Fichero de datos utilizado por el notebook.  
-  Contiene el histórico de temperatura y carga del sistema.
+  Contiene el histórico de temperatura y carga del sistema del DXP2800 GT.
 
 - **figura1.png**  
-  Primera figura generada por el notebook.
+  Primera figura generada por el notebook (visualización principal del análisis).
 
 - **figura2.png**  
-  Segunda figura generada por el notebook.
+  Segunda figura generada por el notebook (gráfica complementaria).
 
 ## Cómo reproducir el análisis
 
@@ -28,4 +28,4 @@ Esta carpeta contiene todos los recursos necesarios para reproducir el análisis
 ## Nota
 
 Este análisis forma parte de la revisión publicada en PCDEMANO.  
-Aquí se incluyen únicamente los recursos técnicos necesarios para reproducir las gráficas y el estudio térmico.
+Aquí se incluyen únicamente los recursos técnicos necesarios para reproducir las gráficas y el estudio térmico del **UGREEN DXP2800 GT**.
