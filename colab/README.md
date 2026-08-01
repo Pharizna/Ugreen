@@ -20,7 +20,7 @@ Esta carpeta contiene todos los recursos necesarios para reproducir el análisis
 
 ## Cómo reproducir el análisis
 
-1. Descarga `ugreen.ipynb` y `history.csv`.  
+1. Descarga `ugreen.ipynb` y `history.csv` o <i>genera este fichero de datos directamente desde Home Assistant</i>.  
 2. Abre el notebook en Jupyter, VS Code o Google Colab.  
 3. Asegúrate de que `history.csv` está en la misma carpeta que el notebook.  
 4. Ejecuta todas las celdas para regenerar las figuras.
