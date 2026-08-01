@@ -1,4 +1,4 @@
-# UGREEN DXP2800 – Recursos técnicos
+# UGREEN DXP2800 GT – Recursos técnicos
 
 Este repositorio contiene los ficheros técnicos utilizados durante la revisión del NAS UGREEN DXP2800 publicada en PCDEMANO. Incluye la configuración real de Pi-hole + Unbound en UGOS, datos y notebooks de análisis térmico, y documentación auxiliar.
 
