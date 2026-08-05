@@ -1,27 +1,40 @@
 services:
   pihole:
-    container_name: pihole
     image: pihole/pihole:latest
-
-    networks:
-      - pihole_net
+    container_name: pihole_2
+    restart: unless-stopped
 
     ports:
-      - "8080:80"
-      - "1053:53/tcp"
-      - "1053:53/udp"
+      - "192.168.10.28:53:53/tcp"
+      - "192.168.10.28:53:53/udp"
+      - "90:80"
+      - "8443:443"
 
     environment:
       TZ: "Europe/Madrid"
-      WEBPASSWORD: "admin"
-      DNSMASQ_USER: "root"
+      FTLCONF_webserver_api_password: ""
+      FTLCONF_dns_listeningMode: "ALL"
 
     volumes:
       - ./etc-pihole:/etc/pihole
-      - ./etc-dnsmasq.d:/etc/dnsmasq.d
 
+    cap_add:
+      - SYS_NICE
+
+    depends_on:
+      - unbound
+
+    networks:
+      - dns_net
+
+  unbound:
+    image: mvance/unbound:latest
+    container_name: unbound
     restart: unless-stopped
 
+    networks:
+      - dns_net
+
 networks:
-  pihole_net:
-    external: true
+  dns_net:
+    driver: bridge
